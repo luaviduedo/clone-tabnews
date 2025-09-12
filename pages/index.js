@@ -5,7 +5,7 @@ function Home() {
     quão incrível é. Se eu pudesse, dedicaria todas as páginas da internet a
     você, mas como isso não é possível, dedico este cantinho especialmente
     para você. Te amo! 💚
-  </h1>,
+  </h1>
   <p>
     Um dia sem você é um dia sem graça. É como acordar e perceber que o sol,
     que ilumina tudo e traz vida ao mundo, simplesmente deixou de existir.
