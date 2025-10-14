@@ -31,6 +31,7 @@ async function status(request, response) {
         opened_connections: databaseOpenedConnectionsValue,
       },
     },
+    kaka: "a mais linda de todas!",
   });
 }
 
