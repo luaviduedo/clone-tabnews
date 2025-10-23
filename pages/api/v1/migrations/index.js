@@ -35,5 +35,12 @@ export default async function migrations(request, response) {
     return response.status(200).json(migratedMigrations);
   }
 
+  if (request.method === "DELETE") {
+    await dbClient.end();
+    return response.status(401).json({
+      error: "não autorizado",
+    });
+  }
+
   return response.status(405).end();
 }
