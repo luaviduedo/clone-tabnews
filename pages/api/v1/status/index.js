@@ -26,11 +26,7 @@ async function status(request, response) {
     updated_at: updatedAt,
     dependencies: {
       database: {
-<<<<<<< HEAD
         databaseName,
-=======
-        databaseName: databaseName,
->>>>>>> fix-migrations-endpoint
         version: databaseVersionValue,
         max_connections: parseInt(databaseMaxConnectionsValue),
         opened_connections: databaseOpenedConnectionsValue,
