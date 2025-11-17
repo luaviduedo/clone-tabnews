@@ -32,6 +32,7 @@
     "react-dom": "18.3.1"
   },
   "devDependencies": {
+    "@babel/plugin-transform-private-property-in-object": "^7.27.1",
     "@commitlint/cli": "19.4.0",
     "@commitlint/config-conventional": "19.2.2",
     "commitizen": "4.3.0",
